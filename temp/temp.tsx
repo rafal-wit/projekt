@@ -80,7 +80,9 @@ const getScoreColor = (score: any) => {
                     step={1}
                     onValueChange={(value) => handleAnswer(q.id, value[0])}
                   />
-                  <div className="text-sm text-gray-500 mt-1">(1 brak, 5 najwyższa)</div>
+                  <div className="text-sm text-gray-500 mt-1">(0 brak, 5 najwyższa)</div>
+                   <span>0</span>
+                   <span>5</span>
                 </div>
               ) : (
                 <Switch
