@@ -80,10 +80,11 @@ const getScoreColor = (score: any) => {
                     step={1}
                     onValueChange={(value) => handleAnswer(q.id, value[0])}
                   />
-                  <div className="text-sm text-gray-500 mt-1">(0 brak, 5 najwyższa)</div>
+                  
                   <div className="flex justify-between text-sm text-gray-500 mt-1">
                    <span>0</span>
                    <span>5</span>
+                   <div className="text-sm text-gray-500 mt-1">(Skala: 0 brak, 5 ocena najwyższa)</div>
                   </div>
 
                 </div>
