@@ -83,8 +83,8 @@ const getScoreColor = (score: any) => {
                   
                   <div className="flex justify-between text-sm text-gray-500 mt-1">
                    <span>0</span>
-                   <span>5</span>
-                   <div className="text-sm text-gray-500 mt-1">(Skala: 0 brak, 5 ocena najwyższa)</div>
+                   <span>5</span></div>
+                   <div className="text-sm text-gray-500 mt-1">(Skala: 0 brak, 5 ocena najwyższa)
                   </div>
 
                 </div>
